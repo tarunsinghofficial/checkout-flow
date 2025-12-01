@@ -69,7 +69,7 @@ const PaymentStep = ({
           </button>
         </div>
         {couponStatus === "applied" && (
-          <p className="sm:block hidden pt-3 text-sm font-medium text-emerald-600">
+          <p className="sm:block pt-3 text-sm font-medium text-emerald-600">
             SAVE10 applied — enjoying 10% off the subtotal.
           </p>
         )}
